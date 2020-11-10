@@ -9,14 +9,20 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    // MARK: - Outlets
     @IBOutlet weak var amountLabel: UILabel?
+    @IBOutlet weak var nperTextField: UITextField?
+    @IBOutlet weak var pvTextField: UITextField?
+    @IBOutlet weak var rateTextField: UITextField?
     
+    // MARK: - Properties
     var amount = 9999.9 {
         didSet {
             updateAmountLabel()
         }
     }
     
+    // MARK: - Methods
     func updateAmountLabel() {
         let formatter = NumberFormatter()
         formatter.numberStyle = .currency
@@ -32,5 +38,8 @@ class ViewController: UIViewController {
         updateAmountLabel()
     }
 
+    @IBAction func textFieldEditingChanged(_ sender: UITextField) {
+        print(sender.text ?? "nil")
+    }
 }
 
