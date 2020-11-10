@@ -39,10 +39,13 @@
                             <constraint firstItem="aH4-2e-dA2" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="aAz-hV-Vkh"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="amountLabel" destination="mKh-pB-FKJ" id="bp2-68-KRC"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="36" y="74"/>
+            <point key="canvasLocation" x="-228" y="75"/>
         </scene>
     </scenes>
 </document>
