@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		691FF82F255AB40C00146EEF /* ExcelFormulas.swift in Sources */ = {isa = PBXBuildFile; fileRef = 691FF82E255AB40C00146EEF /* ExcelFormulas.swift */; };
 		697D4DCF2559475400CAFA7F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 697D4DCE2559475400CAFA7F /* AppDelegate.swift */; };
 		697D4DD12559475400CAFA7F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 697D4DD02559475400CAFA7F /* SceneDelegate.swift */; };
 		697D4DD32559475400CAFA7F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 697D4DD22559475400CAFA7F /* ViewController.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		691FF82E255AB40C00146EEF /* ExcelFormulas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExcelFormulas.swift; sourceTree = "<group>"; };
 		697D4DCB2559475400CAFA7F /* Bank App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Bank App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		697D4DCE2559475400CAFA7F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		697D4DD02559475400CAFA7F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -57,12 +59,13 @@
 			isa = PBXGroup;
 			children = (
 				697D4DCE2559475400CAFA7F /* AppDelegate.swift */,
+				697D4DD72559475600CAFA7F /* Assets.xcassets */,
+				691FF82E255AB40C00146EEF /* ExcelFormulas.swift */,
+				697D4DDC2559475700CAFA7F /* Info.plist */,
+				697D4DD92559475600CAFA7F /* LaunchScreen.storyboard */,
+				697D4DD42559475400CAFA7F /* Main.storyboard */,
 				697D4DD02559475400CAFA7F /* SceneDelegate.swift */,
 				697D4DD22559475400CAFA7F /* ViewController.swift */,
-				697D4DD42559475400CAFA7F /* Main.storyboard */,
-				697D4DD72559475600CAFA7F /* Assets.xcassets */,
-				697D4DD92559475600CAFA7F /* LaunchScreen.storyboard */,
-				697D4DDC2559475700CAFA7F /* Info.plist */,
 			);
 			path = "Bank App";
 			sourceTree = "<group>";
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				691FF82F255AB40C00146EEF /* ExcelFormulas.swift in Sources */,
 				697D4DD32559475400CAFA7F /* ViewController.swift in Sources */,
 				697D4DCF2559475400CAFA7F /* AppDelegate.swift in Sources */,
 				697D4DD12559475400CAFA7F /* SceneDelegate.swift in Sources */,
