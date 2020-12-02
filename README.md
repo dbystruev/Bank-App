@@ -1,6 +1,18 @@
 # Bank App
 
-Simple Loan Calculator for Moscow Digital Academy Students 
+Simple Loan Calculator for Moscow Digital Academy Students
+
+## Video
+
+### 9 Nov 2020
+[ios.m-d-a.ru/091120](https://ios.m-d-a.ru/091120)
+
+[![2 часа](http://img.youtube.com/vi/R7H5Dl-Fa4A/0.jpg)](https://www.youtube.com/watch?v=R7H5Dl-Fa4A)
+
+### 10 Nov 2020
+[ios.m-d-a.ru/101120](https://ios.m-d-a.ru/101120)
+
+[![2 часа](http://img.youtube.com/vi/t8jztz_XkwI/0.jpg)](https://www.youtube.com/watch?v=t8jztz_XkwI)
 
 ## Installation
 
